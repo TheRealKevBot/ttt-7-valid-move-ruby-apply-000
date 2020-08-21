@@ -2,8 +2,6 @@
 def valid_move?()
   if position_taken?(board, index) 
     return "Invalid move"
-  else 
-    
   end
 end 
 
@@ -18,3 +16,4 @@ def position_taken?(board, index)
   else return true
   end 
 end 
+
