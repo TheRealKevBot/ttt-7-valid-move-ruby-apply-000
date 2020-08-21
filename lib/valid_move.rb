@@ -2,7 +2,8 @@
 def valid_move?()
   if position_taken?
     return true
-  else return false
+  else 
+    return false
   end
 enad 
 
